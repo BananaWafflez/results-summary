@@ -9,13 +9,20 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: hsl(252, 100%, 67%);
+    background-image: linear-gradient(180deg,hsl(252, 100%, 67%),hsl(252, 100%, 55%) ) ;
     max-height: 300px;
     text-align: center;
     margin:auto;
+    border-radius: 16px;
+    padding: 32px;
 }
 .summary{
     display:flex;
     flex-direction: column;
     margin:auto;
+    border-radius: 10px;
+}
+.compare{
+    color: hsl(241, 100%, 89%);
+    width:200px;
 }
