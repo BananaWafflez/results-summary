@@ -9,12 +9,12 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(180deg,hsl(252, 100%, 67%),hsl(252, 100%, 55%) ) ;
+    background-image: linear-gradient(180deg,hsl(252, 100%, 67%),hsl(252, 100%, 35%) ) ;
     max-height: 300px;
     text-align: center;
     margin:auto;
-    border-radius: 16px;
-    padding: 32px;
+    border-radius: 20px;
+    padding: 64px;
 }
 .summary{
     display:flex;
@@ -25,4 +25,28 @@ body{
 .compare{
     color: hsl(241, 100%, 89%);
     width:200px;
+    margin-top:8px;
+}
+.circle{
+    display:flex;
+    flex-direction: column;
+    border-radius: 50%;
+    background-color:hsl(252, 100%, 55%);
+    padding:32px;
+    margin: 10px;
+    min-width: 100px;
+}
+.total{
+    font-size: 60px;
+    font-weight: 700;
+    margin:0;
+    color:white;
+}
+.of{
+    color:hsl(241, 100%, 89%);
+}
+.great{
+    font-size: 32px;
+    color:white;
+    font-weight:700;
 }
