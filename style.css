@@ -2,10 +2,20 @@ body{
     display:flex;
     font-family: "Hanken Grotesk";
     min-height: 100vh;
+    
 }
 .results{
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: hsl(252, 100%, 67%);
+    max-height: 300px;
+    text-align: center;
+    margin:auto;
+}
+.summary{
+    display:flex;
+    flex-direction: column;
+    margin:auto;
 }
