@@ -1,0 +1,11 @@
+body{
+    display:flex;
+    font-family: "Hanken Grotesk";
+    min-height: 100vh;
+}
+.results{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
