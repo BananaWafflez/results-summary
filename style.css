@@ -2,6 +2,7 @@ body{
     display:flex;
     font-family: "Hanken Grotesk";
     min-height: 100vh;
+    gap:0;
     
 }
 .results{
@@ -12,7 +13,7 @@ body{
     background-image: linear-gradient(180deg,hsl(252, 100%, 65%),hsl(252, 100%, 35%) ) ;
     max-height: 330px;
     text-align: center;
-    margin:auto;
+    margin:0;
     border-radius: 20px;
     padding: 48px;
     
@@ -21,7 +22,7 @@ body{
 .summary{
     display:flex;
     flex-direction: column;
-    margin:auto;
+    margin:0;
     border-radius: 10px;
 }
 .compare{
@@ -57,4 +58,14 @@ body{
     color:hsl(241, 100%, 89%);
     font-weight:500;
     margin-bottom:32px;
+}
+.score{
+    display:flex;
+    flex-direction: column;
+}
+.fullbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
 }
