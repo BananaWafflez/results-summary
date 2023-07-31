@@ -62,10 +62,15 @@ body{
 .score{
     display:flex;
     flex-direction: column;
+    
+    font-size:22px;
 }
 .fullbox{
     display: flex;
     justify-content: center;
     align-items: center;
     margin:auto;
+}
+.box{
+    display: flex;
 }
