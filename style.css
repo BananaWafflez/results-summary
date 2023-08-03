@@ -22,9 +22,7 @@ body{
     text-align: center;
     margin:0;
     border-radius: 28px;
-    padding: 48px;
-    
-    
+    padding: 48px;   
 }
 .summary{
     display:flex;
