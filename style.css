@@ -69,6 +69,7 @@ body{
 .summary{
     margin-left: 20px;
     margin-right: 20px;
+    padding-right: 12px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
