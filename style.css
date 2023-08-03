@@ -67,11 +67,16 @@ body{
 .summary{
     margin-left: 20px;
     margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 426px;
 }
 .score{
     display:flex;
     flex-direction: column;
     font-size:18px;
+    gap: 16px;
     min-width: 250px;
     
 }
@@ -84,13 +89,8 @@ body{
 .box{
     display: flex;
     padding: 10px;
-    border-radius: 8px;
-    gap: 8px;
+    border-radius: 8px;  
     justify-content: space-around;
-}
-.reaction{
-    color: hsl(0, 100%, 67%);
-    background-color: hsl(0, 100%, 95%);
 }
 img{
     max-width: 22px;
@@ -101,4 +101,20 @@ img{
 }
 .hundred{
     color: gray;
+}
+.reaction{
+    color: hsl(0, 100%, 67%);
+    background-color: hsl(0, 100%, 95%);
+}
+.memory{
+    color:hsl(39, 100%, 56%);
+    background-color:hsl(39, 100%, 95%)
+}
+.verbal{
+    color: hsl(166, 100%, 37%);
+    background-color: hsl(166, 100%, 95%);
+}
+.visual{
+    color:hsl(234, 85%, 45%);
+    background-color: hsl(234, 85%, 95%);
 }
